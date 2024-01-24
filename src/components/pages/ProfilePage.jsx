@@ -54,4 +54,5 @@ const mapStateToProps = state => {
     data: state.loginReducer.userInfo,
   };
 };
+
 export default connect(mapStateToProps, {})(ProfilePage);
